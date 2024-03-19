@@ -1,0 +1,6 @@
+﻿/RentEase.Api/appsettings.Development.json
+bin
+obj
+.vscode
+.vs
+/RentEase.Api/Properties/launchSettings.json

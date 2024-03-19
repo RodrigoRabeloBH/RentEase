@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+    <PackageReference Include="MassTransit.EntityFrameworkCore" Version="8.1.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RentEase.Application\RentEase.Application.csproj" />
+    <ProjectReference Include="..\RentEase.Domain\RentEase.Domain.csproj" />
+    <ProjectReference Include="..\RentEase.Infrastructure\RentEase.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
